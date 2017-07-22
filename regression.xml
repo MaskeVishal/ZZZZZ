@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="regression">
+  <test name="reg">
+    <classes>
+      <class name="testcases.TestLoginPage"/>
+      <class name="testcases.TestLoginWithReportAndScreenshot"/>
+      <class name="testcases.VerifyLoginPageTitle"/>
+      <class name="testcases.TestLoginWithReport"/>
+    </classes>
+  </test> <!-- reg -->
+</suite> <!-- regression -->
